@@ -4,8 +4,16 @@
   "description": "Servcie that creates a report based on forex strategy backtesting",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "test": "mocha 'test/**/*.js' --recursiv --timeout 60000 --exit"
   },
   "author": "Shane Paulus",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^9.0.3"
+  }
 }
