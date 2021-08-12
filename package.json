@@ -1,0 +1,11 @@
+{
+  "name": "forex-ea-reporter",
+  "version": "1.0.0",
+  "description": "Servcie that creates a report based on forex strategy backtesting",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shane Paulus",
+  "license": "ISC"
+}
